@@ -20,11 +20,24 @@ section{
 .main-screen{
     width: 100%;
     display: flex;
-    background-color: black;
+    flex-wrap: wrap;
     gap: 0.5rem;
+    padding: 50px;
+    background-color: black;
+}
+
+.user-profile{
+    position: relative;
 }
 
 .users-screen{
     width: 100%;
+}
+
+.user-name{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: white;
 }
 
